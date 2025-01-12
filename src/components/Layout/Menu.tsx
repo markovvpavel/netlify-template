@@ -73,7 +73,7 @@ const HomeSection = () => {
       >
         <Arrow className="h-[45px] md:h-[60px] -rotate-90 px-3" />
       </motion.div>
-      <span className="text-[4rem] md:text-[7.5rem]">{t("home")}</span>
+      <span className="text-[3rem] md:text-[7.5rem]">{t("home")}</span>
     </div>
   );
 };
@@ -96,7 +96,7 @@ const ContactSection = () => {
       >
         <Arrow className="h-[45px] md:h-[60px] -rotate-90 px-3" />
       </motion.div>
-      <span className="text-[4rem] md:text-[7.5rem]">{t("contact")}</span>
+      <span className="text-[3rem] md:text-[7.5rem]">{t("contact")}</span>
       <motion.div
         className="overflow-hidden"
         animate={{
@@ -119,7 +119,7 @@ const AboutSection = () => {
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      <span className="text-[4rem] md:text-[7.5rem]">{t("about")}</span>
+      <span className="text-[3rem] md:text-[7.5rem]">{t("about")}</span>
       <motion.div
         className="overflow-hidden"
         animate={{
